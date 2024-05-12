@@ -1,0 +1,9 @@
+.prettierrc
+.eslintrc.json
+package-lock.json
+tsconfig.json
+tests
+node_modules
+scripts
+tests
+.DS_Store

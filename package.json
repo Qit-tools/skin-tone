@@ -1,0 +1,64 @@
+{
+  "name": "@qit.tools/skin-tone",
+  "version": "0.1.0",
+  "description": "Change emoji skin tones effortlessly. 🧛🧛🏻🧛🏼🧛🏽🧛🏾🧛🏿",
+  "exports": {
+    "types": "./index.d.ts",
+    "default": "./index.js"
+  },
+  "files": ["index.js", "index.d.ts"],
+  "scripts": {
+    "build": "npm test && tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "download": "ts-node scripts/download-emoji.ts",
+    "start": "ts-node index.ts",
+    "lint": "eslint './**/*.{ts,tsx}' --fix",
+    "fmt": "prettier --write '**/*.{ts,json}'"
+  },
+  "vitest": {
+    "globals": true,
+    "environment": "node",
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    }
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "@qit.tools/unicode-emoji-json-lite": "^0.4.1",
+    "@types/node": "^20.12.11",
+    "@types/tape": "^5.6.4",
+    "axios": "^1.6.8",
+    "eslint": "^8.57.0",
+    "globals": "^15.2.0",
+    "prettier": "3.2.5",
+    "tape": "^5.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.8.0",
+    "vitest": "^1.6.0"
+  },
+  "author": {
+    "name": "Qit.tools",
+    "email": "info@qit.tools",
+    "url": "https://qit.tools/"
+  },
+  "homepage": "https://qit.tools/generators/emoji/",
+  "keywords": [
+    "emoji",
+    "emojis",
+    "skin",
+    "tone",
+    "type",
+    "unicode",
+    "emoticon",
+    "manipulation",
+    "fitzpatrick",
+    "scale",
+    "modify",
+    "change",
+    "strip",
+    "remove"
+  ],
+  "license": "MIT"
+}
