@@ -2,7 +2,6 @@
   "name": "@qit.tools/skin-tone",
   "version": "0.1.0",
   "description": "Change emoji skin tones effortlessly. 🧛🧛🏻🧛🏼🧛🏽🧛🏾🧛🏿",
-  "repository": "Qit-tools/skin-tone",
   "exports": {
     "types": "./index.d.ts",
     "default": "./index.js"
@@ -61,5 +60,12 @@
     "strip",
     "remove"
   ],
+  "bugs": {
+    "url": "https://github.com/Qit-tools/skin-tone/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qit-tools/skin-tone.git"
+  },
   "license": "MIT"
 }
