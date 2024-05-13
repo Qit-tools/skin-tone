@@ -1,6 +1,7 @@
 export type SkinTone = '' | 'none' | 'light' | 'mediumLight' | 'medium' | 'mediumDark' | 'dark';
 /**
- * Adds a skin tone to emoji. Designed for use with ZWJ to handle complex emoji sequences.
+ * Change emoji skin tones effortlessly. 🧛🧛🏻🧛🏼🧛🏽🧛🏾🧛🏿
+ * RGI Emoji Modifier Sequence.
  *
  * @param {string} emoji - The original emoji string.
  * @param {SkinTone} tone - The skin tone to apply. If empty, returns the original emoji.
