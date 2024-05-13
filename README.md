@@ -2,12 +2,12 @@
 
 [![Test status](https://github.com/Qit-tools/skin-tone/workflows/Node.js%20CI/badge.svg)](https://github.com/Qit-tools/skin-tone/actions/workflows/node.js.yml)
 
-Change emoji skin tones effortlessly. 🧛🧛🏻🧛🏼🧛🏽🧛🏾🧛🏿 
+Change emoji [skin tones](https://www.npmjs.com/package/@qit.tools/skin-tone) effortlessly. 🧛🧛🏻🧛🏼🧛🏽🧛🏾🧛🏿 
 
 ## 👀 DEMO
 
-Example of using the library: [Random Emoji Generator](https://qit.tools/generators/random-emoji/)
-Pen: [Codepen](https://codepen.io/dejurin/pen/QWRwPXY)
+- Example of using the library: [Random Emoji Generator](https://qit.tools/generators/random-emoji/)
+- Pen: [Codepen](https://codepen.io/dejurin/pen/QWRwPXY)
 
 ## CDN
 
