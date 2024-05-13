@@ -4,6 +4,10 @@
 
 Change emoji skin tones effortlessly. 🧛🧛🏻🧛🏼🧛🏽🧛🏾🧛🏿 
 
+## 👀 DEMO
+
+Example of using the library: [Random Emoji Generator](https://qit.tools/generators/random-emoji/)
+
 ## 🏗️ Install
 
 ### 🎉 NPM

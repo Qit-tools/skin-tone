@@ -1,6 +1,6 @@
 {
   "name": "@qit.tools/skin-tone",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Change emoji skin tones effortlessly. 🧛🧛🏻🧛🏼🧛🏽🧛🏾🧛🏿",
   "types": "./dist/types/index.d.ts",
   "exports": {
@@ -45,7 +45,7 @@
     "email": "info@qit.tools",
     "url": "https://qit.tools/"
   },
-  "homepage": "https://qit.tools/generators/emoji/",
+  "homepage": "https://qit.tools/generators/random-emoji/",
   "keywords": [
     "emoji",
     "emojis",
