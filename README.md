@@ -62,3 +62,7 @@ console.log(skinTone("🧑🏿‍🤝‍🧑🏿", "light")); // 🧑🏻‍🤝
 - `medium` medium skin tone, fitzpatrick type-4
 - `mediumDark` medium-dark skin tone, fitzpatrick type-5
 - `dark` dark skin tone, fitzpatrick type-6
+
+## Unicode License Agreement
+
+https://www.unicode.org/license.html
