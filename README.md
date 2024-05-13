@@ -7,6 +7,11 @@ Change emoji skin tones effortlessly. 🧛🧛🏻🧛🏼🧛🏽🧛🏾🧛�
 ## 👀 DEMO
 
 Example of using the library: [Random Emoji Generator](https://qit.tools/generators/random-emoji/)
+Pen: [Codepen](https://codepen.io/dejurin/pen/QWRwPXY)
+
+## CDN
+
+- [unpkg](https://unpkg.com/browse/@qit.tools/skin-tone/) 
 
 ## 🏗️ Install
 
@@ -36,12 +41,24 @@ yarn add @qit.tools/skin-tone
 
 ## 🎓 How to use
 
+### NodeJS
+
 ```ts
 // Import by default
 import skinTone from "@qit.tools/skin-tone";
 
 console.log(skinTone("🧁", "dark")); // 🧁
 console.log(skinTone("🧑🏿‍🤝‍🧑🏿", "light")); // 🧑🏻‍🤝‍🧑🏻
+```
+
+### Browser
+
+```js
+// https://cdn.jsdelivr.net/gh/Qit-tools/skin-tone@main/dist/browser/latest.min.js
+
+document.addEventListener("DOMContentLoaded", () => {
+    console.log(skinTone("🧑🏻‍🤝‍🧑🏻", "dark"));
+});
 ```
 
 ## API

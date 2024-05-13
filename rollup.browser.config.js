@@ -1,13 +1,13 @@
 import typescript from '@rollup/plugin-typescript';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
-import { terser } from 'rollup-plugin-terser';
+import { terser } from 'rollup-plugin-minification';
 import replace from '@rollup/plugin-replace';
 import pkg from './package.json' assert { type: 'json' };
 
 export default {
   input: 'index.ts',
   output: {
-    file: 'dist/browser/skin-tone.min.js',
+    file: 'dist/browser/latest.min.js',
     format: 'iife',
     sourcemap: true,
     name: 'skinTone',
