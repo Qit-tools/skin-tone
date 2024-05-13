@@ -54,7 +54,7 @@ console.log(skinTone("🧑🏿‍🤝‍🧑🏿", "light")); // 🧑🏻‍🤝
 ### Browser
 
 ```js
-// https://unpkg.com/@qit.tools/skin-tone@0.6.1/dist/browser/latest.min.js
+// https://unpkg.com/@qit.tools/skin-tone@0.6.2/dist/browser/latest.min.js
 
 document.addEventListener("DOMContentLoaded", () => {
     console.log(skinTone("🧑🏻‍🤝‍🧑🏻", "dark"));

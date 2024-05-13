@@ -4,7 +4,7 @@
  *
  * 🪄 Qit.tools
  * @name @qit.tools/skin-tone
- * @version 0.6.1
+ * @version 0.6.2
  * @license MIT
  * @copyright Copyright (c) 2024 Qit.tools.
  * @see https://github.com/Qit-tools/skin-tone
