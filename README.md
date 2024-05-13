@@ -46,13 +46,13 @@ console.log(skinTone("🧑🏿‍🤝‍🧑🏿", "light")); // 🧑🏻‍🤝
 
 ### emoji
 
-Type: `string`
+**Type**: `string`
 
 ### tone
 
-SkinTone: `'' | 'none' | 'light' | 'mediumLight' | 'medium' | 'mediumDark' | 'dark'`
+`SkinTone`: `'' | 'none' | 'light' | 'mediumLight' | 'medium' | 'mediumDark' | 'dark'`
 
-Type: `SkinTone | undefined`
+**Type**: `SkinTone | undefined`
 
 ### Skin tone to use for emoji.
 
