@@ -1,14 +1,17 @@
 {
   "name": "@qit.tools/skin-tone",
-  "version": "0.2.0",
+  "version": "0.3.2",
   "description": "Change emoji skin tones effortlessly. 🧛🧛🏻🧛🏼🧛🏽🧛🏾🧛🏿",
+  "types": "./dist/types/index.d.ts",
   "exports": {
-    "types": "./index.d.ts",
-    "default": "./index.js"
+    ".": {
+      "import": "./dist/esnext/index.js",
+      "types": "./dist/types/index.d.ts"
+    }
   },
-  "files": ["index.js", "index.d.ts"],
+  "files": ["./dist/esnext/index.js", "./dist/types/index.d.ts"],
   "scripts": {
-    "build": "npm test && tsc",
+    "build": "npm run fmt && npm test && tsc -p tsconfig.esnext.json",
     "test": "vitest run",
     "test:watch": "vitest",
     "download": "ts-node scripts/download-emoji.ts",
@@ -66,5 +69,6 @@
     "type": "git",
     "url": "git+https://github.com/Qit-tools/skin-tone.git"
   },
+  "type": "module",
   "license": "MIT"
 }
