@@ -5,7 +5,7 @@ export type SkinTone = '' | 'none' | 'light' | 'mediumLight' | 'medium' | 'mediu
  *
  * 🪄 Qit.tools
  * @name @qit.tools/skin-tone
- * @version 0.5.3
+ * @version 0.6.0
  * @license MIT
  * @copyright Copyright (c) 2024 Qit.tools.
  * @see https://github.com/Qit-tools/skin-tone
@@ -15,7 +15,7 @@ export type SkinTone = '' | 'none' | 'light' | 'mediumLight' | 'medium' | 'mediu
  * RGI Emoji Modifier Sequence.
  *
  * @param {string} emoji - The original emoji string.
- * @param {SkinTone} tone - The skin tone to apply. If empty, returns the original emoji.
+ * @param {SkinTone} [tone] - The skin tone to apply. If undefined, returns the original emoji.
  * @returns {string} The emoji string with skin tones applied where applicable.
  */
 export default function skinTone(emoji: string, tone?: SkinTone): string;

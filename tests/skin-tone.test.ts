@@ -34,31 +34,31 @@ describe('skinTone tests for various emojis', () => {
   });
 
   emojis.forEach((item) => {
-    it(`Should apply light skin tone to ${item.light}`, () => {
+    it(`Should apply light skin tone: ${item.emoji} => ${item.light}`, () => {
       expect(skinTone(item.emoji, 'light')).toBe(item.light);
     });
   });
 
   emojis.forEach((item) => {
-    it(`Should apply medium light skin tone to ${item.mediumLight}`, () => {
+    it(`Should apply medium light skin tone: ${item.emoji} => ${item.mediumLight}`, () => {
       expect(skinTone(item.emoji, 'mediumLight')).toBe(item.mediumLight);
     });
   });
 
   emojis.forEach((item) => {
-    it(`Should apply medium light skin tone to ${item.medium}`, () => {
+    it(`Should apply medium light skin tone: ${item.emoji} => ${item.medium}`, () => {
       expect(skinTone(item.emoji, 'medium')).toBe(item.medium);
     });
   });
 
   emojis.forEach((item) => {
-    it(`Should apply medium dark skin tone to ${item.mediumDark}`, () => {
+    it(`Should apply medium dark skin tone: ${item.emoji} => ${item.mediumDark}`, () => {
       expect(skinTone(item.emoji, 'mediumDark')).toBe(item.mediumDark);
     });
   });
 
   emojis.forEach((item) => {
-    it(`Should apply dark skin tone to ${item.dark}`, () => {
+    it(`Should apply dark skin tone: ${item.emoji} => ${item.dark}`, () => {
       expect(skinTone(item.emoji, 'dark')).toBe(item.dark);
     });
   });
