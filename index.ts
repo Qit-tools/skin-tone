@@ -33,13 +33,8 @@ export default function skinTone(emoji: string, tone?: SkinTone): string {
   const modifiedParts = parts.map((part) => {
     const basePart = part.replace(/\p{Emoji_Modifier}/gu, '');
 
-    const hasVS16 = /\uFE0F/.test(basePart);
-
     if (/\p{Emoji_Modifier_Base}/u.test(basePart)) {
-      return basePart.replace(
-        /(\p{Extended_Pictographic}+)/u,
-        `$1${skinTonMap[tone]}${hasVS16 ? '\u{FE0F}' : ''}`,
-      );
+      return basePart.replace(/(\p{Extended_Pictographic}+)(\uFE0F?)/u, `$1${skinTonMap[tone]}`);
     }
     return part;
   });
