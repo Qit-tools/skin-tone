@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
-    "module": "CommonJS",
-    "target": "ES6",
-    "esModuleInterop": true,
+    "module": "ESNext",
+    "target": "ES2017",
+    "strict": true,
     "moduleResolution": "node",
-    "outDir": ".",
-    "rootDir": ".",
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationDir": "./dist",
+    "sourceMap": true,
+    "removeComments": false,
     "baseUrl": ".",
     "paths": {
       "*": ["node_modules/*"]
@@ -14,5 +18,5 @@
     "types": ["node"]
   },
   "include": ["index.ts"],
-  "exclude": ["node_modules", "./tests/*.test.ts"]
+  "exclude": ["node_modules", "./**/*.ts"]
 }

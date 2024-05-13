@@ -62,4 +62,39 @@ describe('skinTone tests for various emojis', () => {
       expect(skinTone(item.emoji, 'dark')).toBe(item.dark);
     });
   });
+
+  emojis.forEach((item) => {
+    const applyEmoji = skinTone(item.emoji, 'light');
+    it(`Should apply none/remove skin tone to light skin tone emoji ${applyEmoji} => ${item.emoji}`, () => {
+      expect(skinTone(applyEmoji, 'none')).toBe(item.emoji);
+    });
+  });
+
+  emojis.forEach((item) => {
+    const applyEmoji = skinTone(item.emoji, 'mediumLight');
+    it(`Should apply none/remove skin tone to medium light skin tone emoji ${applyEmoji} => ${item.emoji}`, () => {
+      expect(skinTone(applyEmoji, 'none')).toBe(item.emoji);
+    });
+  });
+
+  emojis.forEach((item) => {
+    const applyEmoji = skinTone(item.emoji, 'medium');
+    it(`Should apply none/remove skin tone to medium skin tone emoji ${applyEmoji} => ${item.emoji}`, () => {
+      expect(skinTone(applyEmoji, 'none')).toBe(item.emoji);
+    });
+  });
+
+  emojis.forEach((item) => {
+    const applyEmoji = skinTone(item.emoji, 'mediumDark');
+    it(`Should apply none/remove skin tone to medium dark skin tone emoji ${applyEmoji} => ${item.emoji}`, () => {
+      expect(skinTone(applyEmoji, 'none')).toBe(item.emoji);
+    });
+  });
+
+  emojis.forEach((item) => {
+    const applyEmoji = skinTone(item.emoji, 'dark');
+    it(`Should apply none/remove skin tone to dark skin tone emoji ${applyEmoji} => ${item.emoji}`, () => {
+      expect(skinTone(applyEmoji, 'none')).toBe(item.emoji);
+    });
+  });
 });

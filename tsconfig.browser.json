@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
     "module": "ESNext",
-    "target": "ES2017",
+    "target": "ES5",
     "strict": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "outDir": "./dist/esnext",
-    "declaration": true,
-    "declarationDir": "./dist/esnext",
+    "outDir": "./dist",
+    "declaration": false,
     "importHelpers": true,
     "sourceMap": true,
     "removeComments": false

@@ -1,6 +1,17 @@
 export type SkinTone = '' | 'none' | 'light' | 'mediumLight' | 'medium' | 'mediumDark' | 'dark';
 
 /**
+ * Apply skin tones to an emoji.
+ * Visit us at: https://qit.tools
+ *
+ * 🪄 Qit.tools
+ * @name @packageName
+ * @version @packageVersion
+ * @license @packageLicense
+ * @copyright Copyright (c) 2024 Qit.tools.
+ * @see https://github.com/Qit-tools/skin-tone
+ * @see https://www.npmjs.com/package/@qit.tools/skin-tone
+ *
  * Change emoji skin tones effortlessly. 🧛🧛🏻🧛🏼🧛🏽🧛🏾🧛🏿
  * RGI Emoji Modifier Sequence.
  *
