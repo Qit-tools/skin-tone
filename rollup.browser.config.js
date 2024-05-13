@@ -7,7 +7,7 @@ import pkg from './package.json' assert { type: 'json' };
 export default {
   input: 'index.ts',
   output: {
-    file: 'dist/browser/latest.min.js',
+    file: 'dist/browser/skin-tone.min.js',
     format: 'iife',
     sourcemap: true,
     name: 'skinTone',
