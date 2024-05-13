@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import skinTone from '../index.ts';
+import skinTone from '../src/index.ts';
 import emojis from './RGI_Emoji.json';
 
 // https://unicode.org/Public/emoji/15.1/emoji-sequences.txt

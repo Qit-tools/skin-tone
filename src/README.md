@@ -2,7 +2,7 @@
 
 [![Test status](https://github.com/Qit-tools/skin-tone/workflows/Node.js%20CI/badge.svg)](https://github.com/Qit-tools/skin-tone/actions/workflows/node.js.yml)
 
-Change emoji [skin tones](https://www.npmjs.com/package/@qit.tools/skin-tone) effortlessly. 🧛🧛🏻🧛🏼🧛🏽🧛🏾🧛🏿 
+Change emoji [skin tones](https://www.npmjs.com/package/__NAME__) effortlessly. 🧛🧛🏻🧛🏼🧛🏽🧛🏾🧛🏿 
 
 ## 👀 DEMO
 
@@ -11,32 +11,32 @@ Change emoji [skin tones](https://www.npmjs.com/package/@qit.tools/skin-tone) ef
 
 ## CDN
 
-- [unpkg](https://unpkg.com/browse/@qit.tools/skin-tone/)
+- [unpkg](https://unpkg.com/browse/__NAME__/)
 
 ## 🏗️ Install
 
 ### 🎉 NPM
 
 ```bash
-npm i @qit.tools/skin-tone
+npm i __NAME__
 ```
 
 ### 🧁 Bun
 
 ```bash
-bun add @qit.tools/skin-tone
+bun add __NAME__
 ```
 
 ### 🌟 PNPM
 
 ```bash
-pnpm add @qit.tools/skin-tone
+pnpm add __NAME__
 ```
 
 ### 🧶 Yarn
 
 ```bash
-yarn add @qit.tools/skin-tone
+yarn add __NAME__
 ```
 
 ## 🎓 How to use
@@ -45,7 +45,7 @@ yarn add @qit.tools/skin-tone
 
 ```ts
 // Import by default
-import skinTone from "@qit.tools/skin-tone";
+import skinTone from "__NAME__";
 
 console.log(skinTone("🧁", "dark")); // 🧁
 console.log(skinTone("🧑🏿‍🤝‍🧑🏿", "light")); // 🧑🏻‍🤝‍🧑🏻
@@ -54,7 +54,7 @@ console.log(skinTone("🧑🏿‍🤝‍🧑🏿", "light")); // 🧑🏻‍🤝
 ### Browser
 
 ```js
-// https://unpkg.com/@qit.tools/skin-tone@0.5.3/dist/browser/latest.min.js
+// https://unpkg.com/__NAME__@__VERSION__/dist/browser/latest.min.js
 
 document.addEventListener("DOMContentLoaded", () => {
     console.log(skinTone("🧑🏻‍🤝‍🧑🏻", "dark"));
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 ## License
 
-MIT
+__LICENSE__
 
 ## Unicode License Agreement
 

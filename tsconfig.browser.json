@@ -11,6 +11,6 @@
     "sourceMap": true,
     "removeComments": false
   },
-  "include": ["index.ts"],
+  "include": ["./src/index.ts"],
   "exclude": ["node_modules", "./tests/*.test.ts"]
 }

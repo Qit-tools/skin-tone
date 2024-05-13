@@ -4,9 +4,9 @@ export type SkinTone = '' | 'none' | 'light' | 'mediumLight' | 'medium' | 'mediu
  * Visit us at: https://qit.tools
  *
  * 🪄 Qit.tools
- * @name packageName
- * @version packageVersion
- * @license packageLicense
+ * @name @qit.tools/skin-tone
+ * @version 0.5.3
+ * @license MIT
  * @copyright Copyright (c) 2024 Qit.tools.
  * @see https://github.com/Qit-tools/skin-tone
  * @see https://www.npmjs.com/package/@qit.tools/skin-tone
