@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Change emoji skin tones effortlessly. 🧛🧛🏻🧛🏼🧛🏽🧛🏾🧛🏿
  * RGI Emoji Modifier Sequence.
@@ -8,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * @param {SkinTone} tone - The skin tone to apply. If empty, returns the original emoji.
  * @returns {string} The emoji string with skin tones applied where applicable.
  */
-function skinTone(emoji, tone) {
+export default function skinTone(emoji, tone) {
     if (!tone) {
         return emoji;
     }
@@ -36,4 +34,3 @@ function skinTone(emoji, tone) {
     });
     return modifiedParts.join(zwj);
 }
-exports.default = skinTone;
