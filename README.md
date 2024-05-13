@@ -44,15 +44,17 @@ console.log(skinTone("🧑🏿‍🤝‍🧑🏿", "light")); // 🧑🏻‍🤝
 
 `skinTone(emoji, tone)`
 
-**emoji**
+### emoji
+
 Type: `string`
 
-**tone**
+### tone
+
 SkinTone: `'' | 'none' | 'light' | 'mediumLight' | 'medium' | 'mediumDark' | 'dark'`
+
 Type: `SkinTone | undefined`
 
-
-Skin tone to use for emoji.
+### Skin tone to use for emoji.
 
 - `none` None skin tone
 - `light` light skin tone, fitzpatrick type-1–2
