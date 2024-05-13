@@ -50,7 +50,7 @@ console.log(skinTone("🧑🏿‍🤝‍🧑🏿", "light")); // 🧑🏻‍🤝
 
 ### tone
 
-`SkinTone`: `'' | 'none' | 'light' | 'mediumLight' | 'medium' | 'mediumDark' | 'dark'`
+`type SkinTone = '' | 'none' | 'light' | 'mediumLight' | 'medium' | 'mediumDark' | 'dark'`
 
 **Type**: `SkinTone | undefined`
 
