@@ -8,7 +8,7 @@ export default {
   input: 'index.ts',
   output: {
     file: 'dist/browser/latest.min.js',
-    format: 'cjs',
+    format: 'iife',
     sourcemap: true,
     name: 'skinTone',
   },
