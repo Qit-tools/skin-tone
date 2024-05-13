@@ -1,6 +1,6 @@
 {
   "name": "@qit.tools/skin-tone",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Change emoji skin tones effortlessly. 🧛🧛🏻🧛🏼🧛🏽🧛🏾🧛🏿",
   "exports": {
     "types": "./index.d.ts",
