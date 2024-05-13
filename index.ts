@@ -5,9 +5,9 @@ export type SkinTone = '' | 'none' | 'light' | 'mediumLight' | 'medium' | 'mediu
  * Visit us at: https://qit.tools
  *
  * 🪄 Qit.tools
- * @name @packageName
- * @version @packageVersion
- * @license @packageLicense
+ * @name packageName
+ * @version packageVersion
+ * @license packageLicense
  * @copyright Copyright (c) 2024 Qit.tools.
  * @see https://github.com/Qit-tools/skin-tone
  * @see https://www.npmjs.com/package/@qit.tools/skin-tone
@@ -23,7 +23,6 @@ export default function skinTone(emoji: string, tone?: SkinTone): string {
   if (!tone) {
     return emoji;
   }
-
   const skinTonMap = {
     none: '',
     light: '\u{1F3FB}',

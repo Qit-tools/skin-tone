@@ -1,6 +1,6 @@
 import typescript from '@rollup/plugin-typescript';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
-import { terser } from 'rollup-plugin-minification';
+import terser from '@rollup/plugin-terser';
 import replace from '@rollup/plugin-replace';
 import pkg from './package.json' assert { type: 'json' };
 
@@ -17,14 +17,14 @@ export default {
       compress: {
         drop_console: true, // Remove console statements
         drop_debugger: true, // Remove debugger statements
-      }
+      },
     }),
     replace({
       preventAssignment: true,
       values: {
-        '@packageName': pkg.name,
-        '@packageVersion': pkg.version,
-        '@packageLicense': pkg.license,
+        'packageName': pkg.name,
+        'packageVersion': pkg.version,
+        'packageLicense': pkg.license,
       },
     }),
     nodeResolve(),

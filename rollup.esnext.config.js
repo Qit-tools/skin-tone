@@ -15,9 +15,9 @@ export default {
     replace({
       preventAssignment: true,
       values: {
-        '@packageName': pkg.name,
-        '@packageVersion': pkg.version,
-        '@packageLicense': pkg.license,
+        'packageName': pkg.name,
+        'packageVersion': pkg.version,
+        'packageLicense': pkg.license,
       },
     }),
     nodeResolve(),
