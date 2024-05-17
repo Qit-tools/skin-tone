@@ -82,6 +82,10 @@
     "type": "git",
     "url": "git+https://github.com/Qit-tools/skin-tone.git"
   },
+  "funding": {
+    "type": "individual",
+    "url": "https://buymeacoffee.com/deyurii"
+  },
   "type": "module",
   "license": "MIT"
 }
